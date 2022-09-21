@@ -1,0 +1,15 @@
+# [Per-Texture Compression Overrides]
+#
+# Line format:
+# <filename>=<max texture compression quality level>
+# Where <filename> is the path inside the data directory (example: texpages/page-6.png), *case-sensitive*
+# Where <max texture compression quality level> corresponds to the following table:
+#   0: same as source (for loading a PNG: no gpu texture compression, for loading a KTX2: ASTC4x4 or uncompressed)
+#   1: highest quality compressed texture formats only (for loading a KTX2: ASTC4x4 or BPTC, for PNGs: this will still currently lead to uncompressed textures in memory)
+#
+# To get the default behavior, which is to use the best texture compression format available on a particular system, omit listing the texture filename at all. (This file is intended only for overriding the default behavior.)
+# NOTE: This is only intended for compatibility with some old manually-created pixel-art texture atlases that are tightly packed and may have "bleed" issues as a result of texture compression.
+# In general, modern texture files with appropriate format, resolution, and padding (if needed between elements) should not need to be listed here, or should be reformatted to avoid it.
+
+texpages/page-14-droid-hubs.png=0
+texpages/page-17-droid-weapons.png=0
