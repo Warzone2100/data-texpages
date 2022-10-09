@@ -13,3 +13,10 @@
 
 texpages/page-14-droid-hubs.png=0
 texpages/page-17-droid-weapons.png=0
+texpages/page-18-fx.png=0
+texpages/page-19-fx.png=0
+texpages/page-20-fx.png=0
+texpages/page-21-fx.png=0
+texpages/page-22-fx.png=0
+texpages/page-23-fx.png=0
+texpages/page-24-fx.png=0
